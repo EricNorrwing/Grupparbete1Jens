@@ -1,9 +1,11 @@
 body {
   padding-top: 30px;
-  padding-left: 30px;
   padding-bottom: 30px;
   padding-top: 30px;
+  margin-left: 83px;
   overflow-x: hidden;
+  background-color: rgb(233, 233, 233);
+  
 }
 .product {
   width: 100%;
@@ -16,7 +18,6 @@ body {
   column-gap: 16px;
   row-gap: 30px;
   
- 
 }
 .images {
   width: 100%;
@@ -24,7 +25,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: start;
-  border: 2px solid black;
+  border: 4px solid black;
+  background-color: rgb(233, 233, 233);
 }
 .images img {
   display: block;
@@ -39,4 +41,112 @@ body {
     font-family: Arial;
   }
 
+  .buy-button {
+    font-family: Arial;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    margin-left: 20px;
+    padding: 10px 10px 10px 10px;
+    transition: opacity 0.15;
+    vertical-align: top;
+    cursor: pointer;
+  }
 
+  .buy-button:hover {
+    opacity: 0.7;
+  }
+  
+  .buy-button:active {
+    opacity: 0.5;
+  }
+
+  .buy-button a:link{
+    color: rgb(233, 233, 233);
+    text-decoration: none;
+  }
+  .buy-button a:visited{
+    color: rgb(180, 180, 180);
+    text-decoration: none;
+  }
+
+  .youtube-button {
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(200, 0, 0);
+    margin: 4px 4px 4px 4px;
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 2px;
+    color: white;
+    vertical-align: top;
+    transition: opacity 0.15;
+
+  }
+  .youtube-button:hover {
+    opacity: 0.7;
+  }
+  .youtube-button:active {
+    opacity: 0.5;
+  }
+  .youtube-button a:link{
+    color: white;
+    text-decoration: none;
+  }
+  .youtube-button a:visited{
+    color: rgb(180, 180, 180);
+    text-decoration: none;
+  }
+
+  .sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0px;
+    background-color: rgb(215, 215, 215);
+    width: 72px;
+    z-index: 200;
+    padding-top: 5px;
+}
+.sidebar-link {
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+.sidebar-link:hover {
+   opacity: 0.7;
+}
+
+.sidebar-link:active {
+    opacity: 0.5;
+}
+
+.sidebar-link img {
+    height: 45px;
+    margin-bottom: 4px;
+}
+
+.sidebar-link div {
+    font-size: 10px;
+}
+
+.sidebar-button {
+    font-family: Arial;
+    font-size: 8px;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+.header {
+    font-family: Arial;
+    height: 55px;
+    font-size: 20px;
+    background-color: rgb(215, 215, 215);
+}
