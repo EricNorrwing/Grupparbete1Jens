@@ -1,66 +1,39 @@
 <!DOCTYPE html>
 <head>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f4f4f4;
-        }
-
-        form {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h2 {
-            text-align: center;
-            color: #333;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 8px;
-            font-weight: bold;
-            color: #555;
-        }
-
-        select{
-            margin-bottom: 8px;
-        }
-
-        input, textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 16px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            box-sizing: border-box;
-        }
-
-        input[type="submit"] {
-            background-color: #4caf50;
-            color: #fff;
-            padding: 12px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #45a049;
-        }
-    </style>
-    <title>Simple Form</title>
+    <link rel="stylesheet" href="stilsheet.css">
+    <title>Super awsome and amazing website that doesn't need any feedback</title>
 </head>
-<body>
-
+<header class="header">
+    Super awsome and amazing website that doesn't need any feedback
+</header>
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <button onclick="window.location.href='Startsida.html'">
+                <img src="https://t3.ftcdn.net/jpg/02/97/98/40/360_F_297984037_iuijYMhcLkt2nNW8niNbkvvUeOwtU8b3.jpg" alt="start">
+                <span>home</span>
+            </button>
+        </div>
+        <div class="sidebar-link">
+            <button onclick="window.location.href='Produktsida.html'">
+                <img src="https://cdns.iconmonstr.com/wp-content/releases/preview/2019/240/iconmonstr-product-3.png" alt="product">
+                <span>products</span>
+            </button>
+        </div>
+        <div class="sidebar-link">
+            <button onclick="window.location.href='omOss.html'">
+                <img src="https://cdn-icons-png.flaticon.com/512/15/15659.png" alt="aboutus">
+                <span>Om oss</span>
+            </button>
+        </div>
+        <div class="sidebar-link">
+            <button onclick="window.location.href='Contact.html'">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTINgjAwRaElMY-AKwfHcH_lyjlE3WQk_yKeTIj5HqquQ&s" alt="contactusnot">
+                <span>contact</span>
+            </button>
+        </div>
+    </nav>
+<body id="contact-us">
+    
     <form action="#" method="post">
         <h2>Contact Us</h2>
 
@@ -86,4 +59,8 @@
     </form>
 
 </body>
+<footer>
+    This is feet
+</footer>
 </html>
+
